@@ -1,4 +1,4 @@
-class LinkedList {
+class SinglyLinkedList {
     constructor() {
         this.head = null
         this.length = 0
@@ -68,10 +68,10 @@ class LinkedListNode {
 /**
  * Helper function to create a LinkedList from an array of values
  * @param  {...any} values data values of each node
- * @returns {LinkedList} Linked List created
+ * @returns {SinglyLinkedList} Linked List created
  */
-LinkedList.fromValues = function (...values) {
-    const ll = new LinkedList()
+SinglyLinkedList.fromValues = function (...values) {
+    const ll = new SinglyLinkedList()
     //In reverse order because we add from the head
     for (let i = values.length - 1; i >= 0; i--)
         ll.insertAtHead(values[i])
@@ -79,4 +79,4 @@ LinkedList.fromValues = function (...values) {
     return ll
 }
 
-module.exports = LinkedList
+module.exports = SinglyLinkedList
