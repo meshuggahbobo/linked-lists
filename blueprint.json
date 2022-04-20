@@ -1,11 +1,6 @@
 {
   "logo": {
-    "src": "https://raw.githubusercontent.com/meshuggahbobo/linked-lists/main/img/logo.png",
-    "width": 150,
-    "height": 150
-  },
-  "ids": {
-    "github": "meshuggahbobo/linked-lists"
+    "src": "https://raw.githubusercontent.com/meshuggahbobo/linked-lists/main/img/logo.png"
   },
   "badges": [
 		{
