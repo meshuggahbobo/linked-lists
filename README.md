@@ -13,4 +13,4 @@
 
 <br />
 
-{{ template:toc }}
+{{ template:contributors }}
