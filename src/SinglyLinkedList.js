@@ -1,15 +1,36 @@
+/**
+ * @author Andrea 'Bobo' Oboe <info@andreaoboe.com>
+ */
+
+/**
+ * @class
+ * @classdesc Singly Linked List Class
+ */
 class SinglyLinkedList {
+
+    /**
+     * @constructor
+     */
     constructor() {
         this.head = null
         this.length = 0
     }
 
+    /**
+     * Insert a new node in the Singly Linked List
+     * @param {*} data to be stored in the node
+     */
     insertAtHead(data) {
-        const newNode = new LinkedListNode(data, this.head)
+        const newNode = new SinglyLinkedListNode(data, this.head)
         this.head = newNode
         this.length++
     }
 
+    /**
+     * Get the node at passed index
+     * @param {Number} index of the node to be retrived
+     * @returns the node at index position
+     */
     getByIndex(index) {
         if (index < 0 || index >= this.length) return null
 
@@ -21,6 +42,9 @@ class SinglyLinkedList {
         return current
     }
 
+    /**
+     * Print the Singly Linked List in human readble mode
+     */
     print() {
         let output = ''
         let current = this.head
@@ -31,21 +55,34 @@ class SinglyLinkedList {
         console.log(`${output}null`)
     }
 
+    /**
+     * Insert new node in the passed index of the Singly Linked List
+     * @param {Number} index of the List
+     * @param {*} value to be stored in the node
+     * @returns 
+     */
     insertAtIndex(index, value) {
         if (index === 0) return this.insertAtHead(value)
 
         const prev = this.getByIndex(index - 1)
         if (prev === null) return null
 
-        prev.next = new LinkedListNode(value, prev.next)
+        prev.next = new SinglyLinkedListNode(value, prev.next)
         this.length++
     }
 
+    /**
+     * Removed the current head of the Singly Linked List
+     */
     removeHead() {
         this.head = this.head.next
         this.length--
     }
 
+    /**
+     * Remove node at passed index
+     * @param {Number} index of the node to be removed
+     */
     removeAtIndex(index) {
         if (index === 0) return this.removeHead()
 
@@ -58,7 +95,16 @@ class SinglyLinkedList {
 }
 
 
-class LinkedListNode {
+/**
+ * @class
+ * @classdesc Singly Linked List Node Class
+ */
+class SinglyLinkedListNode {
+    /**
+     * @constructor
+     * @param {*} value of the node to be stored
+     * @param {*} next node to be pointed
+     */
     constructor(value, next) {
         this.value = value
         this.next = next
