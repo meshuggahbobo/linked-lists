@@ -6,4 +6,11 @@
 		<a href="https://github.com/meshuggahbobo/linked-lists/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
 	</p>
 
+<p align="center">
+  <b>Singly & Doubly Linked Lists in Javascript</b></br>
+  <sub><sub>
+</p>
 
+<br />
+
+{{ template:toc }}
