@@ -1,0 +1,17 @@
+{
+  "logo": {
+    "src": "https://raw.githubusercontent.com/meshuggahbobo/linked-lists/main/img/logo.png",
+    "width": 150,
+    "height": 150
+  },
+  "ids": {
+    "github": "meshuggahbobo/linked-lists"
+  },
+  "badges": [
+		{
+			"alt": "Maintained",
+			"img": "https://img.shields.io/badge/Maintained%3F-yes-green.svg",
+			"url": "https://github.com/meshuggahbobo/linked-lists/graphs/commit-activity"
+		}
+  ]
+}

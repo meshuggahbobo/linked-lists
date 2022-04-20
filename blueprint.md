@@ -1,2 +1,4 @@
-# linked-lists
-Linked Lists in Javascript
+{{ template:logo }}
+{{ template:title }}
+{{ template:badges }}
+
