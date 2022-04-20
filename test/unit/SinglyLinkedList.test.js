@@ -1,4 +1,4 @@
-const LinkedList = require('./SinglyLinkedList')
+const LinkedList = require('../../src/SinglyLinkedList')
 
 describe('#insertAtHead', () => {
     test('it adds the element to the beginning of the list', () => {

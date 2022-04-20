@@ -66,9 +66,9 @@ class LinkedListNode {
 }
 
 /**
- * Helper function to create a LinkedList from an array of values
+ * Helper function to create a SinglyLinkedList from an array of values
  * @param  {...any} values data values of each node
- * @returns {SinglyLinkedList} Linked List created
+ * @returns {SinglyLinkedList} Singly Linked List created
  */
 SinglyLinkedList.fromValues = function (...values) {
     const ll = new SinglyLinkedList()
