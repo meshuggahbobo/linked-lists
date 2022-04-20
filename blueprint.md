@@ -3,3 +3,4 @@
 {{ template:badges }}
 {{ template:description }}
 {{ template:contributors }}
+{{ template:license }}

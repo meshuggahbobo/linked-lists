@@ -3,12 +3,23 @@
   "version": "2.0.0",
   "description": "Singly & Doubly Linked Lists in Javascript",
   "main": "index.js",
+  "contributors": [
+    {
+      "name": "Andrea Oboe",
+      "email": "info@andreaoboe.com",
+      "url": "https://www.andreaoboe.com",
+      "img": "https://avatars.githubusercontent.com/u/36472094?v=4",
+      "info": [
+        "🔥"
+      ]
+    }
+  ],
   "scripts": {
     "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@appnest/readme": "^1.2.7",
     "jest": "^27.5.1"

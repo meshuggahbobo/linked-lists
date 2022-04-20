@@ -13,4 +13,21 @@
 
 <br />
 
-{{ template:contributors }}
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
+
+## ➤ Contributors
+	
+
+| [<img alt="Andrea Oboe" src="https://avatars.githubusercontent.com/u/36472094?v=4" width="100">](https://www.andreaoboe.com) |
+|:--------------------------------------------------:|
+| [Andrea Oboe](https://www.andreaoboe.com)        |
+| [info@andreaoboe.com](mailto:info@andreaoboe.com) |
+| 🔥                                               |
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
+
+## ➤ License
+	
+Licensed under [MIT](https://opensource.org/licenses/MIT).
