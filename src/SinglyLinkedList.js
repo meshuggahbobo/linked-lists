@@ -59,7 +59,6 @@ class SinglyLinkedList {
      * Insert new node in the passed index of the Singly Linked List
      * @param {Number} index of the List
      * @param {*} value to be stored in the node
-     * @returns 
      */
     insertAtIndex(index, value) {
         if (index === 0) return this.insertAtHead(value)
