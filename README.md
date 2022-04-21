@@ -6,13 +6,6 @@
 		<a href="https://github.com/meshuggahbobo/linked-lists/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
 	</p>
 
-<p align="center">
-  <b>Singly & Doubly Linked Lists in Javascript</b></br>
-  <sub><sub>
-</p>
-
-<br />
-
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
 
@@ -275,4 +268,11 @@ Doubly Linked List Node Class
 | --- | --- | --- |
 | value | <code>\*</code> | of the node to be stored |
 
+
+<p align="center">
+  <b>Singly & Doubly Linked Lists in Javascript</b></br>
+  <sub><sub>
+</p>
+
+<br />
 
