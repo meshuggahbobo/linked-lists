@@ -1,10 +1,27 @@
+/**
+ * @author Andrea 'Bobo' Oboe <info@andreaoboe.com>
+ */
+
+/**
+ * @class
+ * @classdesc Doubly Linked List Class
+ */
 class DoublyLinkedList {
+
+    /**
+     * @constructor
+     */
     constructor() {
         this.head = null
         this.tail = null
         this.length = 0
     }
 
+    /**
+     * Get the node at passed index
+     * @param {Number} index of the node to be retrived
+     * @returns the node at index position
+     */
     getByIndex(index) {
         if (index < 0 || index >= this.length) return null
 
@@ -113,7 +130,16 @@ class DoublyLinkedList {
     }
 }
 
+/**
+ * @class
+ * @classdesc Doubly Linked List Node Class
+ */
 class DoublyLinkedListNode {
+
+    /**
+     * @constructor
+     * @param {*} value of the node to be stored
+     */
     constructor(value) {
         this.value = value
         this.previous = null

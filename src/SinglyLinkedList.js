@@ -102,7 +102,7 @@ class SinglyLinkedListNode {
     /**
      * @constructor
      * @param {*} value of the node to be stored
-     * @param {*} next node to be pointed
+     * @param {SinglyLinkedListNode} next node to be pointed
      */
     constructor(value, next) {
         this.value = value
