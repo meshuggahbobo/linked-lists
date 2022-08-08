@@ -50,6 +50,20 @@ describe('#getByIndex', () => {
 
 });
 
+describe('#getMiddleNode', () => {
+    test('Odd list length', () => {
+        const ll = LinkedList.fromValues(1, 2, 3, 4, 5)
+
+        expect(ll.getMiddleNode().value).toBe(3)
+    });
+
+    test('Even list length', () => {
+        const ll = LinkedList.fromValues(1, 2, 3, 4, 5, 6)
+
+        expect(ll.getMiddleNode().value).toBe(4)
+    });
+});
+
 describe('#insertAtIndex', () => {
     describe('with index less than 0', () => {
         test('it dows not insert anything', () => {

@@ -43,6 +43,22 @@ class SinglyLinkedList {
     }
 
     /**
+     * Return the middle node of the list
+     * @returns Return the middle node of the list
+     */
+    getMiddleNode(){
+        let slowPtr = this.head
+        let fastPtr = this.head
+        
+        while(fastPtr !== null && fastPtr.next !== null){
+            fastPtr = fastPtr.next.next
+            slowPtr = slowPtr.next
+        }
+        
+        return slowPtr
+    }
+
+    /**
      * Print the Singly Linked List in human readble mode
      */
     print() {

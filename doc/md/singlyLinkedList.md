@@ -20,6 +20,7 @@ Singly Linked List Class
     * _instance_
         * [.insertAtHead(data)](#SinglyLinkedList+insertAtHead)
         * [.getByIndex(index)](#SinglyLinkedList+getByIndex) ⇒
+        * [.getMiddleNode()](#SinglyLinkedList+getMiddleNode) ⇒
         * [.print()](#SinglyLinkedList+print)
         * [.insertAtIndex(index, value)](#SinglyLinkedList+insertAtIndex)
         * [.removeHead()](#SinglyLinkedList+removeHead)
@@ -50,6 +51,13 @@ Get the node at passed index
 | --- | --- | --- |
 | index | <code>Number</code> | of the node to be retrived |
 
+<a name="SinglyLinkedList+getMiddleNode"></a>
+
+### singlyLinkedList.getMiddleNode() ⇒
+Return the middle node of the list
+
+**Kind**: instance method of [<code>SinglyLinkedList</code>](#SinglyLinkedList)  
+**Returns**: Return the middle node of the list  
 <a name="SinglyLinkedList+print"></a>
 
 ### singlyLinkedList.print()
@@ -110,5 +118,5 @@ Singly Linked List Node Class
 | Param | Type | Description |
 | --- | --- | --- |
 | value | <code>\*</code> | of the node to be stored |
-| next | <code>\*</code> | node to be pointed |
+| next | [<code>SinglyLinkedListNode</code>](#SinglyLinkedListNode) | node to be pointed |
 
